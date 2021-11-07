@@ -10,32 +10,16 @@
 				[
 					39,
 					77,
-					25,
-					23,
-					90,
-					0.4,
-					0.62,
-					0,
-					0
+					25
 				],
 				[
 					37,
 					81,
-					28,
-					25,
-					95,
-					0.4,
-					0.72,
-					0
+					28
 				],
 				[
 					37,
 					81,
-					0,
-					0,
-					90,
-					0.3,
-					0.91,
 					0
 				],
 				[
@@ -58,12 +42,12 @@
 				"RC_RATE": 0.4,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.51,
+				"roll_rate": 0.66,
 				"pitch_rate": 0.72,
-				"yaw_rate": 0.8,
+				"yaw_rate": 0,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0,
-				"throttle_EXPO": 0.18,
+				"throttle_EXPO": 0.16,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
 				"rcYawRate": 0.3,
@@ -626,32 +610,16 @@
 				[
 					42,
 					85,
-					35,
-					23,
-					90,
-					0.4,
-					0.62,
-					0,
-					0
+					35
 				],
 				[
 					46,
 					90,
-					38,
-					25,
-					95,
-					0.4,
-					0.72,
-					0
+					38
 				],
 				[
 					45,
 					90,
-					0,
-					0,
-					90,
-					0.3,
-					0.91,
 					0
 				],
 				[
@@ -674,12 +642,12 @@
 				"RC_RATE": 0.4,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.51,
+				"roll_rate": 0.66,
 				"pitch_rate": 0.72,
-				"yaw_rate": 0.8,
+				"yaw_rate": 0,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0,
-				"throttle_EXPO": 0.18,
+				"throttle_EXPO": 0.16,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
 				"rcYawRate": 0.3,
@@ -1242,32 +1210,16 @@
 				[
 					34,
 					77,
-					25,
-					23,
-					90,
-					0.4,
-					0.62,
-					0,
-					0
+					25
 				],
 				[
 					37,
 					81,
-					28,
-					25,
-					95,
-					0.4,
-					0.72,
-					0
+					28
 				],
 				[
 					37,
 					81,
-					0,
-					0,
-					90,
-					0.3,
-					0.91,
 					0
 				],
 				[
@@ -1290,12 +1242,12 @@
 				"RC_RATE": 0.4,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.5,
+				"roll_rate": 0.66,
 				"pitch_rate": 0.72,
-				"yaw_rate": 0.79,
+				"yaw_rate": 0,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0,
-				"throttle_EXPO": 0.18,
+				"throttle_EXPO": 0.16,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
 				"rcYawRate": 0.3,
@@ -1893,9 +1845,7 @@
 			},
 			{
 				"identifier": 2,
-				"functions": [
-					"TBS_SMARTAUDIO"
-				],
+				"functions": [],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -1903,9 +1853,7 @@
 			},
 			{
 				"identifier": 3,
-				"functions": [
-					"ESC_SENSOR"
-				],
+				"functions": [],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -2874,9 +2822,8 @@
 					"name": "DYNAMIC_FILTER"
 				}
 			],
-			"_featureMask": 407175176,
-			"_analyticsChanges": {},
-			"_featureChanges": {}
+			"_featureMask": 272958472,
+			"_analyticsChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
@@ -2885,8 +2832,8 @@
 		"mincommand": 1000,
 		"motor_count": 4,
 		"motor_poles": 14,
-		"use_dshot_telemetry": false,
-		"use_esc_sensor": true
+		"use_dshot_telemetry": true,
+		"use_esc_sensor": false
 	},
 	"GPS_CONFIG": {
 		"provider": 0,

@@ -13,8 +13,8 @@
 					25,
 					23,
 					90,
+					0.6,
 					0.4,
-					0.75,
 					0,
 					0
 				],
@@ -24,8 +24,8 @@
 					28,
 					25,
 					95,
-					0.4,
-					0.75,
+					0.6,
+					0.7,
 					0
 				],
 				[
@@ -34,8 +34,8 @@
 					0,
 					0,
 					90,
-					0.3,
-					0.55,
+					0.6,
+					0.59,
 					0
 				],
 				[
@@ -55,25 +55,25 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.9,
+				"RC_RATE": 0.6,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
+				"roll_rate": 0.4,
 				"pitch_rate": 0.7,
-				"yaw_rate": 0.35,
+				"yaw_rate": 0.59,
 				"dynamic_THR_PID": 0.65,
-				"throttle_MID": 0.5,
-				"throttle_EXPO": 0,
+				"throttle_MID": 0.2,
+				"throttle_EXPO": 0.2,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 0.9,
-				"rcPitchRate": 0.9,
+				"rcYawRate": 0.6,
+				"rcPitchRate": 0.6,
 				"RC_PITCH_EXPO": 0,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100,
+				"throttleLimitPercent": 90,
 				"rates_type": 0
 			},
 			"AccTrim": [
@@ -342,43 +342,43 @@
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 14,
+					"auxSwitchChannelIndex": 4
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 5,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1900,
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 13,
+					"auxSwitchChannelIndex": 4
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1900,
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 3,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -629,8 +629,8 @@
 					35,
 					23,
 					90,
+					0.6,
 					0.4,
-					0.75,
 					0,
 					0
 				],
@@ -640,8 +640,8 @@
 					38,
 					25,
 					95,
-					0.4,
-					0.75,
+					0.6,
+					0.7,
 					0
 				],
 				[
@@ -650,8 +650,8 @@
 					0,
 					0,
 					90,
-					0.3,
-					0.55,
+					0.6,
+					0.59,
 					0
 				],
 				[
@@ -671,25 +671,25 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.9,
+				"RC_RATE": 0.6,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
+				"roll_rate": 0.4,
 				"pitch_rate": 0.7,
-				"yaw_rate": 0.35,
+				"yaw_rate": 0.59,
 				"dynamic_THR_PID": 0.65,
-				"throttle_MID": 0.5,
-				"throttle_EXPO": 0,
+				"throttle_MID": 0.2,
+				"throttle_EXPO": 0.2,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 0.9,
-				"rcPitchRate": 0.9,
+				"rcYawRate": 0.6,
+				"rcPitchRate": 0.6,
 				"RC_PITCH_EXPO": 0,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100,
+				"throttleLimitPercent": 90,
 				"rates_type": 0
 			},
 			"AccTrim": [
@@ -958,43 +958,43 @@
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 14,
+					"auxSwitchChannelIndex": 4
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 5,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1900,
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 13,
+					"auxSwitchChannelIndex": 4
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1900,
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 3,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -1245,8 +1245,8 @@
 					25,
 					23,
 					90,
+					0.6,
 					0.4,
-					0.75,
 					0,
 					0
 				],
@@ -1256,8 +1256,8 @@
 					28,
 					25,
 					95,
-					0.4,
-					0.75,
+					0.6,
+					0.7,
 					0
 				],
 				[
@@ -1266,8 +1266,8 @@
 					0,
 					0,
 					90,
-					0.3,
-					0.55,
+					0.6,
+					0.59,
 					0
 				],
 				[
@@ -1287,25 +1287,25 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.9,
+				"RC_RATE": 0.6,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
+				"roll_rate": 0.4,
 				"pitch_rate": 0.7,
-				"yaw_rate": 0.35,
+				"yaw_rate": 0.59,
 				"dynamic_THR_PID": 0.65,
-				"throttle_MID": 0.5,
-				"throttle_EXPO": 0,
+				"throttle_MID": 0.2,
+				"throttle_EXPO": 0.2,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 0.9,
-				"rcPitchRate": 0.9,
+				"rcYawRate": 0.6,
+				"rcPitchRate": 0.6,
 				"RC_PITCH_EXPO": 0,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100,
+				"throttleLimitPercent": 90,
 				"rates_type": 0
 			},
 			"AccTrim": [
@@ -1574,43 +1574,43 @@
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 14,
+					"auxSwitchChannelIndex": 4
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 5,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1900,
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 13,
+					"auxSwitchChannelIndex": 4
 				},
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1900,
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 3,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -1893,9 +1893,7 @@
 			},
 			{
 				"identifier": 2,
-				"functions": [
-					"TBS_SMARTAUDIO"
-				],
+				"functions": [],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -1903,9 +1901,7 @@
 			},
 			{
 				"identifier": 3,
-				"functions": [
-					"ESC_SENSOR"
-				],
+				"functions": [],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -2874,7 +2870,7 @@
 					"name": "DYNAMIC_FILTER"
 				}
 			],
-			"_featureMask": 407175176,
+			"_featureMask": 272958472,
 			"_analyticsChanges": {},
 			"_featureChanges": {}
 		}
@@ -2885,8 +2881,8 @@
 		"mincommand": 1000,
 		"motor_count": 4,
 		"motor_poles": 14,
-		"use_dshot_telemetry": false,
-		"use_esc_sensor": true
+		"use_dshot_telemetry": true,
+		"use_esc_sensor": false
 	},
 	"GPS_CONFIG": {
 		"provider": 0,
